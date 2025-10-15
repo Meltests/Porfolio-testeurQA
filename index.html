@@ -2,16 +2,19 @@
 <html lang="fr">
 
 <head>
-    <title>Portfolio Name</title>
+    <title>Portfolio Amel </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- linking css file -->
+    <link rel="icon" type="image/png" href="images/faviconchrome.ico">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <!-- bootstrap CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" defer></script>
     <script src="script/script.js" defer></script>
+    
 </head>
 
 <body>
@@ -19,7 +22,7 @@
         <!-- navbar -->
         <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
             <div class="container">
-                <a class="navbar-brand" href="#">Name</a>
+                <a class="navbar-brand" href="#"> Porfolio </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -56,8 +59,10 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-                    <h1 class="hero_title">Salut, moi c'est Amel</h1>
-                    <p class="hero_desc">Je suis testeuse logiciel junior</p>
+                    <h1 class="hero_title"> À la recherche d'un testeur Logiciel ? </h1>
+                    <p class="hero_desc"> Vous êtes sur la bonne page </p>
+                    <a href="#about" class="bouton-accueil"> Faisons connaissance <i class="fa-solid fa-arrow-down"></i>
+                    </a>
                 </div>
             </div>
         </div>
@@ -66,46 +71,26 @@
     <!-- about section-->
     <section id="about">
         <div class="container mt-4 pt-4">
-            <h2 class="text-center">A propos</h2>
             <div class="row mt-4">
                 <div class="col-lg-4">
-                    <img src="images/person.png" class="imageAboutPage" alt="imagearenommer">
+                    <img src="images/logoAmel.png" class="imageAboutPage" alt="Logo intiale A et D">
                 </div>
 
                 <div class="col-lg-8">
-                    <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                        printer took a galley of type and scrambled it to make a type specimen book. It has survived not
-                        only five centuries, but also the leap into electronic typesetting, remaining essentially
-                        unchanged
-
+                    <h2 class="titre-profil"> Mon profil </h2>
+                    <p> Issue de la branche du commerce, avec une expériences en communication et marketing, j'ai découvert le test logiciel en réalisant des tests manuels dans une start-up développant une application SAAS, où j'y travaillait en tant Community Manager. 
+                        Suite à un interêt grantissant pour le test, je me suis lancée, grâce au soutiens de mes collègues devevelopeurs, dans une <strong> formation de testeur chez Openclassrooms </strong>. 
+                        Aujourd'hui, je suis testeuse logiciel, tant <strong>manuels qu'automatisés</strong>. 
                     </p>
                     <div class="row mt-3">
-                        <div class="col-md-6">
-                            <ul>
-                                <li>Nom: Prénom nom</li>
-                                <li>Age: 42</li>
-                                <li>xxx: xxx xxx</li>
-
+                        <h2 class="titre-profil"> Pourquoi le test logiciel ? </h2>
+                        <p> Le test logiciel m'a rapidement interessé pour plusieurs raisons : </p>
+                            <ul class="liste-points">
+                                <li> La recherche de bugs et l'exploration de tous les cas possibles me passionnent.</li>
+                                <li> L'amélioration continue afin d'optimiser la fluidité, la sécurité et l'esthétique du produit</li>
+                                <li> Des compétences en phase avec mes expériences en marketing et communication digitale.</li>
+                                <li> L'importance de l'empathie et la communication afin de bien collaborer avec l'équipe.</li>
                             </ul>
-                        </div>
-                        <div class="col-md-6">
-                            <ul>
-                                <li>Nom: Prénom nom</li>
-                                <li>Age: 42</li>
-                                <li>xxx: xxx xxx</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="row mt-3">
-                        <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                            unknown printer took a galley of type and scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap into electronic typesetting, remaining
-                            essentially unchanged.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                            unknown printer took a galley of type and scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap into electronic typesetting, remaining
-                            essentially unchanged.
-                        </p>
                     </div>
                 </div>
             </div>
@@ -132,7 +117,7 @@
 
 
 
-    <!-- contact section-->
+     <!-- contact section-->
     <section id="contact">
         <div class="container mt-3 contactContent">
             <h2 class="text-center">Contactez-moi</h2>
@@ -155,6 +140,38 @@
             </div>
         </div>
     </section>
+
+
+<!-- Formualire de contact -->
+
+<section id="contact">
+    <div class="container mt-3 contactContent">
+        <h2 class="text-center">Contactez-moi</h2>
+
+        <div class="row justify-content-center mt-4 ">
+                <div class="card col-lg-6 contactCard p-4">
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <label for="name" class="form-label"> Nom </label>
+                            <input type="text" class="form-control" id="name" placeholder="Votre nom" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label"> Adresse email </label>
+                            <input type="email" class="form-control" id="email" placeholder="Votre email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label"> Message </label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Votre message" required></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-success">Envoyer</button>
+                        </div>
+                    </form>
+                    <div id="formMessage" class="mt-3 text-center"></div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 </main>

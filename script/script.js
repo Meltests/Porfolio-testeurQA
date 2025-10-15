@@ -1,4 +1,5 @@
-// Function to add the "navbarDark" class to the navbar on scroll
+// Changement de couleur de la nav bar au scroll//
+
 function handleNavbarScroll() {
     const header = document.querySelector(".navbar");
     window.onscroll = function () {
@@ -11,7 +12,7 @@ function handleNavbarScroll() {
     };
 }
 
-// Function to handle navbar collapse on small devices after a click
+// Colapse navbar format responsive //
 function handleNavbarCollapse() {
     const navLinks = document.querySelectorAll(".nav-item");
     const menuToggle = document.getElementById("navbarSupportedContent");
@@ -23,13 +24,16 @@ function handleNavbarCollapse() {
     });
 }
 
-// Function to dynamically create HTML elements from the JSON file
+
+
+// SECTIONS SKILLS //
+
 function createSkillsFromJSON() {
     const container = document.querySelector("#skills .container");
     let row = document.createElement("div");
     row.classList.add("row");
 
-    // Load the JSON file
+    // Load the JSON file //
     fetch("data/skills.json")
         .then((response) => response.json())
         .then((data) => {
@@ -47,10 +51,10 @@ function createSkillsFromJSON() {
                     </div>
                 `;
 
-                // Append the card to the current row
+                // Append the card to the current row //
                 row.appendChild(card);
 
-                // If the index is a multiple of 3 or it's the last element, create a new row
+                // Creer une nouvelle ligne après 3 cards // 
                 if ((index + 1) % 3 === 0 || index === data.length - 1) {
                     container.appendChild(row);
                     row = document.createElement("div");
@@ -59,7 +63,12 @@ function createSkillsFromJSON() {
             });
         });
 }
-// Function to dynamically create HTML elements from the JSON file
+
+
+
+
+// SECTION PORTFOLIO // 
+
 function createPortfolioFromJSON() {
     const container = document.querySelector("#portfolio .container");
     let row = document.createElement("div");
@@ -80,7 +89,7 @@ function createPortfolioFromJSON() {
                         <h4 class="card-title">${item.title}</h4>
                         <p class="card-text">${item.text}</p>
                         <div class="text-center">
-                            <a href="${item.link}" class="btn btn-success">Lien</a>
+                            <a href="${item.link}" class="btn btn-success">Lien Github</a>
                         </div>
                     </div>
                 </div>
@@ -99,8 +108,28 @@ function createPortfolioFromJSON() {
         });
 }
 
+
+
+
+// effets au niveau de l'accueil du site // 
+function slideAccueil() {
+  const elementsAccueil = document.querySelectorAll(".hero-text > *");
+
+  const observer = new IntersectionObserver(mouvement => {
+    mouvement.forEach(mouv => {
+      if (mouv.isIntersecting) {
+        mouv.target.classList.add("slide-up-visible");
+      }
+    });
+  });
+
+  // On observe chaque élément //
+  elementsAccueil.forEach(element => observer.observe(element));
+}
+
 // Call the functions to execute the code
 handleNavbarScroll();
 handleNavbarCollapse();
 createSkillsFromJSON();
 createPortfolioFromJSON();
+slideAccueil();

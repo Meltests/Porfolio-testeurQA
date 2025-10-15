@@ -1,0 +1,34 @@
+[
+    {
+        "image": "gestion-de-projet.png",
+        "title": "Gestion de projet"
+       
+    },
+    {
+        "image": "optimisation-et-debug.png",
+        "title": "Plannification stratégie de test"
+    },
+    {
+        "image": "test.png",
+        "title": "Empathie"  
+    },
+    {
+        "image": "gestion-de-projet.png",
+        "title": "Communication"
+       
+    },
+    {
+        "image": "optimisation-et-debug.png",
+        "title": "Méthode Agile"
+    },
+    {
+        "image": "test.png",
+        "title": "Créativité"  },
+        {
+        "image": "optimisation-et-debug.png",
+        "title": "Optimisation et debug"
+    },
+    {
+        "image": "test.png",
+        "title": "Curiosité"  }
+]

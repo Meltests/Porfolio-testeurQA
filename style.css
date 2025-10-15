@@ -1,5 +1,6 @@
 /******* GENERAL *******/
 /* spacing on all sections */
+
 #about,
 #skills,
 #portfolio,
@@ -17,26 +18,48 @@
     padding-bottom: 4rem;
 }
 
+
+/* nav */
+
+.nav-item {
+    color: #ffffff !important;
+    transition: color 0.3s ease, transform 0.3s ease;
+    font-size: 20px;
+    margin-left: 8px;
+}
+
+.nav-item:hover {
+    color: #ffffff !important;
+    transform: scale(1.2);
+}
+
 /* display background dark color on navbar scroll */
 .navbarScroll.navbarDark {
-    background-color: #5b5b5b;
+    background: linear-gradient(135deg, #DCC7AA, #C4A88A, #A8968A);
+    border-radius: 0 0 20px 20px;
 }
 
 /* hero background image */
 .imagefond {
     height: 100vh;
     max-height: 900px;
-    background:pink;
+    background: linear-gradient(135deg, #DCC7AA, #C4A88A, #A8968A);
     background-size: cover;
     position: relative;
 }
+
+
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
+    margin-top: 170px;
+    width: 60%;
+    margin-left: 270px;
 }
 .hero_desc {
     font-size: 2rem;
 }
+
 .hero-text {
     text-align: center;
     position: absolute;
@@ -45,6 +68,44 @@
     transform: translate(-50%, -50%);
     color: white;
 }
+
+.hero-text > * {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s ease-out;
+}
+
+.hero-text > *.slide-up-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Bouton accueil */
+
+.bouton-accueil{
+    font-size: 20px;
+    margin-top: 120px;
+    padding: 12px 28px;     
+    border: none;
+    border-radius: 50px;
+    background: #ffff;
+    color: #A8968A;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: inline-flex;
+    align-items: center;
+    gap: 10px; 
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.bouton-accueil:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    color: #75655b;
+}
+
 
 /* about */
 .imageAboutPage {
@@ -55,7 +116,25 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
-/* skills */
+.liste-points{
+    margin-left: 40px; 
+    color: noir; 
+}
+
+.liste-points li::marker {
+    color: #75655b;
+}
+
+
+
+.titre-profil {
+    color: #C4A88A;
+}
+
+
+
+
+/* SKILLS */
 .skillsText.card {
     height: 350px;
     cursor: pointer;
@@ -77,35 +156,119 @@
     text-align: center;
 }
 .card:hover .skillsIcon {
-    color: #008000;
+    color: #C4A88A;
 }
 .skillsText:hover {
-    border: 1px solid #008000;
+    border: 1px solid #C4A88A;
 }
 
-/* portfolio */
+
+
+
+
+/* PORTFOLIO */
 #portfolio p {
     text-align: center;
 }
 
+.portfolioContent {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.portfolioContent:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+
+.portfolioContent .card-title {
+    color: #C4A88A;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.portfolioContent .card-text {
+    color: #75655b;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.portfolioContent .btn {
+    border-radius: 50px;
+    background: #C4A88A;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.3s ease, transform 0.3s ease;
+    border: none;
+}
+
+.portfolioContent .btn:hover {
+    background: #A8968A;
+    transform: translateY(-3px);
+   
+}
+
+
+
+
+
 /* contact */
+
+
 .contactColumn {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;   
 }
 .contactColumn i {
-    color: #198754;
+    color: #C4A88A;
 }
+
+
+/* Formualire de contact */
+
+.contactCard .form-control {
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border-color: #C4A88A;
+}
+
+.contactCard .form-control:focus {
+    border-color: #C4A88A;         
+    box-shadow: 0 0 0 0.25rem rgba(196,168,138,0.25);
+}
+
+.contactCard .btn {
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    background-color: #C4A88A;
+    border-color: #C4A88A;
+}
+
+.contactCard .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.25);
+}
+
+
+
+
 
 /* footer */
 .footer {
-background-color: grey;
-height: 50px;
+    background-color: #C4A88A;
+    height: 50px;
 }
 
 .footer-text {
-color: white;
-text-align: center;
-margin-top: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
 }
