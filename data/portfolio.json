@@ -1,34 +1,34 @@
 [
     {
-        "image": "fondbooki2.png",
+        "image": "projet-booki.webp",
         "title": "Booki",
         "text": "Développement en Html/Css du projet Booki. Site d'hébergements et d'activités selon la ville choisie.",
         "link": "https://github.com/Meltests/Projet-Booki",
         "category": "Développement"
     },
      {
-        "image": "fondprintit.png",
+        "image": "projet-printit.webp",
         "title": "Print it",
         "text": "Dévellopement en javascript d'un caroussel pour le site d'impressions d'entreprises. essaie",
         "link": "https://github.com/Meltests/projet6",
         "category": "Développement"
     },
     {
-        "image": "jseAvocats.png",
+        "image": "projet-jseavocats.webp",
         "title": "Jse Avocats",
         "text": "Test manuel du site d'un cabinet d'avocats écoresponsables avec élaboration d'un cahier de recette",
         "link": "#",
         "category": "Test"
     },
      {
-        "image": "724events.png",
+        "image": "projet-724events.webp",
         "title": "724events",
         "text": "Réalisation d'une campagne de tests pour un site événementiel. elaboration d'un cahier de recette, de tests manuel ainsi que des tests d'API.",
         "link": "#",
         "category": "Test"
     },
      {
-        "image": "SophieBluelfond.png",
+        "image": "projet-sophiebluel.webp",
         "title": "Sophie Bluel",
         "text": "Développement d'un portfolio en Javascript pour une architeche d'intérieur",
         "link": "https://github.com/Meltests/update-Projet7",
@@ -36,21 +36,21 @@
 
     },
      {
-        "image": "Kasa.png",
+        "image": "projet-kasa.webp",
         "title": "Kasa",
         "text": "Développement d'un site de location d'appartements avec React",
         "link": "https://github.com/Meltests/Projet-Kasa",
         "category": "Développement"
     },
      {
-        "image": "essaieqwenta.png",
+        "image": "projet-qwenta.webp",
         "title": "Qwenta - Menu Maker",
         "text": "Plannification d'une stratégie de developeemnt pour le un site de création de menu pour des restaurants",
         "link": "#",
         "category": "Plannification"
     },
      {
-        "image": "fondtomsen2.png",
+        "image": "projet-tomsen.webp",
         "title": "PayForge - TOMSEN",
         "text": "Dévellopement de la stratégie de test du site de compte bancaire TOMSEN",
         "link": "#",
@@ -58,7 +58,7 @@
     },
     
     {
-        "image": "Eco-bath-bliss.png",
+        "image": "projet-eco-bliss-bath.webp",
         "title": "Eco-Bath-Bliss",
         "text": "Automatisation de test Back-end, Front-End sur cypress pour un site de vente de savons solides eco-responsables.",
         "link": "https://github.com/Meltests/Projet-Eco-bliss-bath",
