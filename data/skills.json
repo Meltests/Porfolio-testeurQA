@@ -2,31 +2,47 @@
     {
         "image": "html-css.jpg",
         "title": "HTML - CSS",
-        "text": "Intégration d’interfaces responsives et accessibles, utilisation de maquettes Figma, développement d’animations CSS"
+        "text": "Intégration d'interfaces responsives et accessibles, utilisation de maquettes Figma, développement d'animations CSS"
     },
     {
         "image": "js.jpg",
-        "title": "javascript",
-        "text": "Manipulation du DOM, création d’éléments dynamiques, gestion de données de formulaires"
+        "title": "Javascript",
+        "text": "Manipulation du DOM, création d'éléments dynamiques, gestion de données de formulaires (connexion & contact)"
     },
     {
         "image": "react.jpg",
         "title": "React",
-        "text": "Création d’applications React, création de composants et manipulation de leur état"
+        "text": "Création d'applications React, création de composants et manipulation de leur état"
     },
     {
-        "image": "gestion-de-projet.png",
-        "title": "Gestion de projet",
-        "text": "Analyse des besoins d’un client, définition d’une solution technique répondant aux besoins fonctionnelle, planification du projet"
+        "image": "cypress.png",
+        "title": "Cypress",
+        "text": "Automatisation de tests end-to-end et d'API, vérification des fonctionnalités clés et suivi des régressions sur les projets."
+    }, 
+     {
+        "image": "jira.png",
+        "title": "Jira",
+        "text": "Création et suivi de tickets, planification des sprints et gestion des tâches au sein d'une équipes agile."
+    },
+     {
+        "image": "docker.png",
+        "title": "Docker",
+        "text": "Création et exécution de conteneurs pour isoler les environnements de développement."
+    },
+    {
+        "image": "test.png",
+        "title": "Stratégie de test",
+        "text": "Réalisation de tests exploratoires, unitaires et d'intégration, définition d'une stratégie de test et automatisation E2E et API."
     },
     {
         "image": "optimisation-et-debug.png",
         "title": "Optimisation et debug",
-        "text": "Identification des anomalies et correction d’un site existant, optimisation SEO et performance et publication d’un site en ligne"
+        "text": "Identification des anomalies et correction d'un site existant, optimisation SEO et performance et publication d'un site en ligne"
     },
-    {
-        "image": "test.png",
-        "title": "Test",
-        "title ": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et d’un rédaction d’un cahier de recette, automatisation de tests E2E et d’API"
+     {
+        "image": "gestion-de-projet.png",
+        "title": "Gestion de projet",
+        "text": "Analyse des besoins d'un client, définition d'une solution technique répondant aux besoins fonctionnelle, planification du projet"
     }
+    
 ]

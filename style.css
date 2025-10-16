@@ -35,7 +35,7 @@
 
 /* display background dark color on navbar scroll */
 .navbarScroll.navbarDark {
-    background: linear-gradient(135deg, #DCC7AA, #C4A88A, #A8968A);
+    background: linear-gradient(135deg, #5C8B69, #3B6B4A, #2E5C4F);
     border-radius: 0 0 20px 20px;
 }
 
@@ -43,7 +43,7 @@
 .imagefond {
     height: 100vh;
     max-height: 900px;
-    background: linear-gradient(135deg, #DCC7AA, #C4A88A, #A8968A);
+    background: linear-gradient(135deg, #5C8B69, #3B6B4A, #2E5C4F);
     background-size: cover;
     position: relative;
 }
@@ -89,7 +89,7 @@
     border: none;
     border-radius: 50px;
     background: #ffff;
-    color: #A8968A;
+    color: #3B6B4A;
     font-weight: 600;
     cursor: pointer;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -103,7 +103,7 @@
 .bouton-accueil:hover {
     transform: translateY(-3px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
-    color: #75655b;
+    color: #2E5C4F;
 }
 
 
@@ -122,13 +122,13 @@
 }
 
 .liste-points li::marker {
-    color: #75655b;
+    color: #3B6B4A;
 }
 
 
 
 .titre-profil {
-    color: #C4A88A;
+    color: #3B6B4A;
 }
 
 
@@ -138,7 +138,18 @@
 .skillsText.card {
     height: 350px;
     cursor: pointer;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.skillsText.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+    border: none;
+}
+
 .skillsText img {
     width: 100%;
     height: 150px;
@@ -156,10 +167,10 @@
     text-align: center;
 }
 .card:hover .skillsIcon {
-    color: #C4A88A;
+    color: #3B6B4A;
 }
 .skillsText:hover {
-    border: 1px solid #C4A88A;
+    border: 1px solid #3B6B4A;
 }
 
 
@@ -186,20 +197,22 @@
 
 
 .portfolioContent .card-title {
-    color: #C4A88A;
+    color: #3B6B4A;
     font-weight: 700;
     margin-bottom: 15px;
 }
 
 .portfolioContent .card-text {
-    color: #75655b;
+    color: black;
     font-size: 16px;
     margin-bottom: 20px;
 }
 
+
+
 .portfolioContent .btn {
     border-radius: 50px;
-    background: #C4A88A;
+    background: #3B6B4A;
     color: #fff;
     font-weight: 600;
     transition: 0.3s ease, transform 0.3s ease;
@@ -207,7 +220,7 @@
 }
 
 .portfolioContent .btn:hover {
-    background: #A8968A;
+    background: #3B6B4A;
     transform: translateY(-3px);
    
 }
@@ -225,7 +238,7 @@
     align-items: center;   
 }
 .contactColumn i {
-    color: #C4A88A;
+    color: #3B6B4A;
 }
 
 
@@ -235,11 +248,11 @@
     border-radius: 20px;
     padding: 10px 15px;
     margin-bottom: 15px;
-    border-color: #C4A88A;
+    border-color: #3B6B4A;
 }
 
 .contactCard .form-control:focus {
-    border-color: #C4A88A;         
+    border-color: #3B6B4A;         
     box-shadow: 0 0 0 0.25rem rgba(196,168,138,0.25);
 }
 
@@ -248,8 +261,8 @@
     padding: 10px 30px;
     font-weight: 600;
     transition: all 0.3s ease;
-    background-color: #C4A88A;
-    border-color: #C4A88A;
+    background-color: #3B6B4A;
+    border-color: #3B6B4A;
 }
 
 .contactCard .btn:hover {
@@ -263,7 +276,7 @@
 
 /* footer */
 .footer {
-    background-color: #C4A88A;
+    background-color: #3B6B4A;
     height: 50px;
 }
 
