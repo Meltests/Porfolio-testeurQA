@@ -17,20 +17,20 @@
         "image": "projet-jseavocats.webp",
         "title": "Jse Avocats",
         "text": "Réalisation de tests manuels et rédaction du cahier de recette pour le site d'un cabinet d'avocats écoresponsable.",
-        "link": "#",
+        "link": "https://github.com/Meltests/JseAvocat",
         "alt": "image du site avec un fond vert et texte de présentation du cabinet"
     },
      {
         "image": "projet-724events.webp",
         "title": "724events",
         "text": "Création d'une campagne de tests, avec cahier de recette, tests manuels (Back/Front), et bilan, pour un site d'événementiel.",
-        "link": "#",
+        "link": "https://github.com/Meltests/Projet-test-manuel---724events",
         "alt": "image de la page d'accueil du site avec un evement"
     },
      {
         "image": "projet-sophiebluel.webp",
         "title": "Sophie Bluel",
-        "text": "Développement d'un portfolio interactif en JavaScript pour une architecte d'intérieur présentant ses projets.",
+        "text": "Développement d'un portfolio interactif en JavaScript, avec connexion à un compte, pour une architecte d'intérieur présentant ses projets.",
         "link": "https://github.com/Meltests/update-Projet7",
         "alt": "image de la page d'accueil du site avec description de Sophie Bluel"
 
@@ -46,14 +46,14 @@
         "image": "projet-qwenta.webp",
         "title": "Qwenta - Menu Maker",
         "text": "Planification d'une stratégie de développement pour un outil de création de menus destinés aux restaurants.",
-        "link": "#",
+        "link": "https://github.com/Meltests/Projet-Qwenta-planification-projet-dev-",
         "alt": "image de la page de création de menu pour restaurateurs"
     },
      {
         "image": "projet-tomsen.webp",
         "title": "PayForge - TOMSEN",
         "text": "Élaboration d'une stratégie de test complète de test manuels et automatisés pour la plateforme bancaire TOMSEN.",
-        "link": "#",
+        "link": "https://github.com/Meltests/Projet-TOMSEN-Planification-strategie-test",
         "alt": "Image de l'espace compte bancaire du site"
     },
     
