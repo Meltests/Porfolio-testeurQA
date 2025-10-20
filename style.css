@@ -241,6 +241,11 @@
 
 /* Formualire de contact */
 
+
+#contact-form{
+    margin-bottom: 40px;
+}
+
 .contactCard .form-control {
     border-radius: 20px;
     padding: 10px 15px;
@@ -271,6 +276,7 @@
 
 
 
+
 /* footer */
 .footer {
     background-color: #3B6B4A;
@@ -281,4 +287,109 @@
     color: white;
     text-align: center;
     padding-top: 15px;
+}
+
+
+
+/******************* RESPONSIVE MOBILE ***********************/
+
+@media (max-width: 768px) {
+
+    /* titres */
+
+     .hero_title {
+        font-size: 3rem;
+        margin-top: 0;
+        margin-left: 20px;
+        width: 90%;
+    }
+
+    .hero_desc {
+        margin-top: 20px;
+        font-size: 1.5rem;
+    }
+    .bouton-accueil {
+        font-size: 20px;
+        margin-top: 100px;
+        padding: 10px 20px;
+    }
+
+
+    /* nav bar*/
+
+     .navbar, 
+     .navbar-collapse {
+        background: linear-gradient(135deg, #5C8B69, #3B6B4A, #2E5C4F) !important;
+        border-radius: 0 0 10px 10px;
+        padding: 1rem 0;
+        transition: all 0.3s ease;
+    }
+
+    /* About Section*/
+
+    .imageAboutPage {
+        width: 80%;
+        margin-bottom: 20px;
+        margin-left: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #about{
+        margin-top: 0;
+        padding-top: 3em;
+        margin-bottom: 0; 
+    }
+
+    .titre-profil{
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #about p {
+        max-width: 90%;    
+        margin: 1rem;
+        text-align: center;   
+    }
+
+
+
+    /* skills section*/
+
+   .skillsText {
+        width: 80%;  
+        margin: 0 auto 20px; 
+    }
+
+    #skills {
+        background-color: #DEE8E1;
+        padding-bottom: 30px;
+    }
+
+/* Portfolio*/
+
+    #portfolio{
+        margin-top: 1rem;
+        padding-top: 4rem;
+    }
+
+    .portfolioContent{
+        width: 80%;
+        margin: 0 auto 20px; 
+    }
+
+/*contact*/
+
+    #contact{
+        background-color: #DEE8E1;
+    }
+
+    #contact-form{
+        margin-top: 1rem;
+        padding: 4rem;
+    }
+
 }
