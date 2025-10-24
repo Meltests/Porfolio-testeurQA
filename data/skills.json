@@ -26,7 +26,7 @@
      {
         "image": "jira.webp",
         "title": "Jira",
-        "text": "Création et suivi de tickets, planification des sprints et gestion des tâches au sein d'une équipes agile.",
+        "text": "Création et suivi de tickets, planification des sprints et gestion des tâches au sein d'une équipes Agile.",
         "alt": "Logo jira"
     },
      {
@@ -38,20 +38,19 @@
     {
         "image": "test.webp",
         "title": "Stratégie de test",
-        "text": "Réalisation de tests exploratoires, unitaires et d'intégration, définition d'une stratégie de test et automatisation E2E et API.",
+        "text": "Réalisation de tests exploratoires, définition d'une stratégie de test et automatisation E2E et API.",
         "alt": "Icone boulon et cases cochées pour le test"
     },
     {
         "image": "optimisation-et-debug.webp",
         "title": "Optimisation et debug",
-        "text": "Identification des anomalies et correction d'un site existant, optimisation SEO et performance et publication d'un site en ligne",
+        "text": "Identification des anomalies et correction d'un site existant, optimisation SEO et performance avec publication d'un site en ligne",
         "alt": "Icone jauge différentes couleur pour l'optimisation et le debug"
     },
      {
         "image": "gestion-de-projet.webp",
         "title": "Gestion de projet",
-        "text": "Analyse des besoins d'un client, définition d'une solution technique répondant aux besoins fonctionnelle, planification du projet",
+        "text": "Analyse des besoins d'un client, définition d'une solution technique répondant aux besoins fonctionnels et planification du projet",
         "alt": "Icone tableur coloré pour la gestion de projet"
     }
-    
 ]
